@@ -117,6 +117,7 @@ export default function PickupScheduler() {
           email: form.contactEmail,
           phone: form.contactPhone,
           caseType: 'Schedule Pickup',
+          brand: 'Kings Highway',
           message,
           pickupAddress: form.pickupAddress,
           pickupDate: form.pickupDate,
