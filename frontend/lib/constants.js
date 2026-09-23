@@ -20,4 +20,11 @@ export const CONTACT = {
 export const WEB_LEADS_API =
   import.meta.env.VITE_WEB_LEADS_API || 'https://aim-crm-backend.onrender.com/api/web-leads'
 
+// Email-verification gate used before a pickup can be submitted — same host
+// as WEB_LEADS_API, both with permissive CORS for browser requests.
+export const VERIFY_EMAIL_REQUEST_API =
+  import.meta.env.VITE_VERIFY_EMAIL_REQUEST_API || 'https://aim-crm-backend.onrender.com/api/verify-email/request'
+export const VERIFY_EMAIL_CONFIRM_API =
+  import.meta.env.VITE_VERIFY_EMAIL_CONFIRM_API || 'https://aim-crm-backend.onrender.com/api/verify-email/confirm'
+
 export const EASE_CONFIDENT = [0.16, 1, 0.3, 1]
